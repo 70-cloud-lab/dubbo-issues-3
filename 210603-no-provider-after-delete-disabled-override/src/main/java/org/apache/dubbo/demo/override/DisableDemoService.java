@@ -11,7 +11,7 @@ public class DisableDemoService {
     public static void main(String[] args) throws IOException {
         RegistryFactory factory = ExtensionLoader.getExtensionLoader(RegistryFactory.class).getAdaptiveExtension();
         Registry registry = factory.getRegistry(URL.valueOf("zookeeper://127.0.0.1:2181"));
-        registry.register(URL.valueOf("override://0.0.0.0/org.apache.dubbo.demo.DemoService?category=configurators&dynamic=false&disabled=true&enabled=true"));
+        registry.register(URL.valueOf("override://0.0.0.0/org.apache.dubbo.demo.DemoService?category=configurators&dynamic=false&disabled=true"));
         System.in.read();
     }
 }
