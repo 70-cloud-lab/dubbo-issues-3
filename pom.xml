@@ -11,6 +11,8 @@
     <modules>
         <module>210603-no-provider-after-delete-disabled-override</module>
         <module>210607-no-provider-when-using-two-registries</module>
+        <module>210617-review-8054</module>
+        <module>210617-old-dubbo-callback</module>
     </modules>
 
     <properties>
