@@ -1,0 +1,1 @@
+nop2=org.apache.dubbo.demo.nopconfig.NopDynamicConfigurationFactory

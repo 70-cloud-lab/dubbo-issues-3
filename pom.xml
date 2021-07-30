@@ -13,6 +13,7 @@
         <module>210607-no-provider-when-using-two-registries</module>
         <module>210617-review-8054</module>
         <module>210617-old-dubbo-callback</module>
+        <module>210720-analysis-8010</module>
     </modules>
 
     <properties>
