@@ -14,6 +14,8 @@
         <module>210617-review-8054</module>
         <module>210617-old-dubbo-callback</module>
         <module>210720-analysis-8010</module>
+        <module>210827-test-multi-registries</module>
+        <module>211007-test-304-snapshot</module>
     </modules>
 
     <properties>
